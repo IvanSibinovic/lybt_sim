@@ -1,0 +1,440 @@
+{
+  "airport": "LYBT",
+  "name": "BEOGRAD/Batajnica",
+  "arp": {
+    "coordinate": "445628N 0201503E",
+    "elevation_ft": 281,
+    "geoid_undulation_ft": 141,
+    "distance_from_thr_12L": "125° GEO / 1251 m",
+    "city_reference": "3 km NW from church in Batajnica and SE from Nova Pazova",
+    "magnetic_variation": "5°E (2020)",
+    "annual_change": "+0.131°",
+    "reference_temperature_c": 29.8,
+    "air_base": "Vojni aerodrom \"Pukovnik-pilot Milenko Pavlović\" V.P. 9858"
+  },
+  "operational_hours": {
+    "air_base": "H24",
+    "ats": "H24",
+    "ais_briefing": "H24",
+    "aro": "H24",
+    "met_briefing": "H24",
+    "customs_immigration": "O/R",
+    "health_sanitation": "O/R",
+    "fuelling": "O/R",
+    "handling": "O/R",
+    "security": "O/R"
+  },
+  "runways": [
+    {
+      "identifier": "12L/30R",
+      "geographic_bearing": "125.32° / 305.34°",
+      "dimensions_m": {
+        "length": 2502,
+        "width": 45
+      },
+      "slope_percent": {
+        "12L": "+0.2% (350m), +0.1% (850m), +0.2% (450m), +0.3% (852m)",
+        "30R": "-0.3% (852m), -0.2% (450m), -0.1% (850m), -0.2% (350m)"
+      },
+      "surface": "ASPH",
+      "pcn": "LCN 70",
+      "strip_dimensions_m": {
+        "length": 2620,
+        "width": 300
+      },
+      "thresholds": [
+        {
+          "end": "12L",
+          "coordinates": "445651.03N 0201416.06E",
+          "elevation_ft": 265,
+          "geoid_undulation_ft": 141,
+          "runway_end_coordinates": "445604.16N 0201549.17E",
+          "tdz_highest_elevation_ft": 268,
+          "displaced_threshold": false,
+          "declared_distances_m": {
+            "TORA": 2502,
+            "TODA": 2502,
+            "ASDA": 2502,
+            "LDA": 2502
+          },
+          "approach_type": "Precision instrument approach CAT I",
+          "lighting": {
+            "approach": "SALS 480m LIH",
+            "threshold": "GRN",
+            "identification_lights": "FLG W EV 1 SEC",
+            "papi": {
+              "type": "PAPI",
+              "position": "LEFT",
+              "angle": "3°",
+              "meht_ft": 56
+            },
+            "runway_center_line": "2500m, 60m spacing, LIH (last 600m yellow)",
+            "runway_edge": "RED"
+          }
+        },
+        {
+          "end": "30R",
+          "coordinates": "445604.16N 0201549.17E",
+          "elevation_ft": 281,
+          "geoid_undulation_ft": 141,
+          "runway_end_coordinates": "445651.03N 0201416.06E",
+          "displaced_threshold": false,
+          "declared_distances_m": {
+            "TORA": 2502,
+            "TODA": 2502,
+            "ASDA": 2502,
+            "LDA": 2502
+          },
+          "approach_type": "Non-precision instrument approach",
+          "lighting": {
+            "threshold": "GRN",
+            "papi": {
+              "type": "PAPI",
+              "position": "LEFT",
+              "angle": "3°",
+              "meht_ft": 56
+            },
+            "runway_center_line": "2500m, 60m spacing, LIH (last 600m yellow)",
+            "runway_edge": "RED"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "12R/30L",
+      "geographic_bearing": "125.31° / 305.32°",
+      "dimensions_m": {
+        "length": 2510,
+        "width": 45
+      },
+      "slope_percent": {
+        "12R": "+0.1% (572m), +0.2% (850m), +0.1% (400m), +0.5% (300m), -0.1% (250m), +0.2% (138m)",
+        "30L": "-0.2% (138m), +0.1% (250m), -0.5% (300m), -0.1% (400m), -0.2% (850m), -0.1% (572m)"
+      },
+      "surface": "ASPH",
+      "pcn": "LCN 70",
+      "strip_dimensions_m": {
+        "length": 2630,
+        "width": 150
+      },
+      "thresholds": [
+        {
+          "end": "12R",
+          "coordinates": "445609.46N 0201507.11E",
+          "elevation_ft": 267,
+          "geoid_undulation_ft": 142,
+          "runway_end_coordinates": "445523.80N 0201637.84E",
+          "tdz_highest_elevation_ft": "Data not available",
+          "displaced_threshold": true,
+          "displacement_m": 72,
+          "declared_distances_m": {
+            "TORA": 2510,
+            "TODA": 2510,
+            "ASDA": 2510,
+            "LDA": 2438
+          },
+          "approach_type": "Non-precision instrument approach",
+          "lighting": {
+            "threshold": "GRN",
+            "identification_lights": "FLG W EV 1 SEC",
+            "papi": {
+              "type": "PAPI",
+              "position": "LEFT",
+              "angle": "3°",
+              "meht_ft": 56
+            },
+            "runway_center_line": "2500m, 60m spacing, LIH (last 600m yellow)",
+            "runway_edge": "RED"
+          }
+        },
+        {
+          "end": "30L",
+          "coordinates": "445523.80N 0201637.84E",
+          "elevation_ft": 280,
+          "geoid_undulation_ft": 142,
+          "runway_end_coordinates": "445610.80N 0201504.44E",
+          "tdz_highest_elevation_ft": "Data not available",
+          "displaced_threshold": false,
+          "declared_distances_m": {
+            "TORA": 2510,
+            "TODA": 2510,
+            "ASDA": 2510,
+            "LDA": 2510
+          },
+          "approach_type": "Non-precision instrument approach",
+          "lighting": {
+            "approach": "SALS 380m LIH",
+            "threshold": "GRN",
+            "papi": {
+              "type": "PAPI",
+              "position": "LEFT",
+              "angle": "3°",
+              "meht_ft": 56
+            },
+            "runway_center_line": "2500m, 60m spacing, LIH (last 600m yellow)",
+            "runway_edge": "RED"
+          }
+        }
+      ],
+      "ils": {
+        "available": true,
+        "identifier": "BTJ",
+        "frequency": "108.90",
+        "channel": "26X",
+        "type": "LOC/ILS CAT I",
+        "coordinates": "445555.4N 0201606.7E",
+        "glidepath": {
+          "frequency": "329.30 MHz",
+          "coordinates": "445642.2N 0201424.0E",
+          "angle": "3.0°",
+          "rdh_ft": 52
+        },
+        "marker_beacons": {
+          "middle_marker": {
+            "coordinates": "445711.1N 0201336.2E",
+            "frequency": "75 MHz",
+            "position": "120° MAG/0.58 NM to RWY 12L",
+            "intersect_height_ft": 237
+          },
+          "outer_marker": {
+            "coordinates": "445806.1N 0201146.7E",
+            "frequency": "75 MHz",
+            "position": "120° MAG/2.16 NM to RWY 12L",
+            "intersect_height_ft": 742
+          }
+        }
+      }
+    }
+  ],
+  "helipad": {
+    "designation": "HOTEL",
+    "threshold_coordinates": "445612N 0201449E",
+    "geoid_undulation_ft": 142,
+    "tolf_elevation_ft": 262,
+    "areas": {
+      "tolf": {
+        "dimensions_m": "16 x 16",
+        "surface": "GRASS",
+        "marking": "20 green edge lights"
+      },
+      "fato": {
+        "dimensions_m": "22 x 22",
+        "surface": "GRASS",
+        "marking": "24 white edge lights"
+      }
+    },
+    "true_bearing": "125° / 305°",
+    "approach_lighting": "White approach lights, type SIMPLE, low intensity omni-directional, length 210m with crossbar at 60m from FATO",
+    "apapi": {
+      "position": "left side",
+      "angle": "6°"
+    },
+    "location": "400m from THR 12R and 145m away from runway center line",
+    "remarks": "Depending on TWR decision, helicopters may land and take-off on/from RWY 12L/30R, RWY 12R/30L, FATO HOTEL or on/from the area south of RWY 12R/30L"
+  },
+  "taxiways": {
+    "A": {"width_m": 23, "surface": "ASPH", "lighting": "edge lights"},
+    "A1": {"width_m": 23, "surface": "ASPH", "lighting": "edge lights"},
+    "A2": {"width_m": 12, "surface": "ASPH", "lighting": "edge lights"},
+    "B": {"width_m": 18, "surface": "ASPH", "lighting": "edge lights"},
+    "C": {"width_m": 15, "surface": "ASPH", "lighting": "edge lights"},
+    "C1": {"width_m": 9, "surface": "ASPH", "lighting": "edge lights"},
+    "C2": {"width_m": 9, "surface": "ASPH", "lighting": "edge lights"},
+    "C3": {"width_m": 9, "surface": "ASPH", "lighting": "edge lights"},
+    "C4": {"width_m": 9, "surface": "ASPH", "lighting": "edge lights"},
+    "C5": {"width_m": 9, "surface": "ASPH", "lighting": "edge lights"},
+    "M": {"width_m": 18, "surface": "ASPH", "lighting": "edge lights"}
+  },
+  "aprons": {
+    "A": {"surface": "ASPH"},
+    "B": {"surface": "ASPH"},
+    "C": {"surface": "ASPH"},
+    "D": {"surface": "ASPH"},
+    "E": {"surface": "ASPH"},
+    "F": {"surface": "ASPH"}
+  },
+  "snow_clearance_priority": [
+    "RWY 12L/30R",
+    "RWY 12R/30L",
+    "Taxiways",
+    "Apron"
+  ],
+  "navaids": {
+    "VOR/DME": [
+      {
+        "identifier": "BGD",
+        "type": "VOR/DME",
+        "frequency": "112.05 MHz",
+        "channel": "CH 57Y",
+        "coordinates": "444909.7N 0201840.2E",
+        "elevation_ft": 300,
+        "coverage": {
+          "at_10000ft": {
+            "sector": "112° – 155°",
+            "distance_nm": 60
+          }
+        }
+      },
+      {
+        "identifier": "SMI",
+        "type": "VOR/DME",
+        "frequency": "117.00 MHz",
+        "channel": "CH 117X",
+        "coordinates": "450034.1N 0192550.8E",
+        "elevation_ft": 300
+      },
+      {
+        "identifier": "TPL",
+        "type": "VOR/DME",
+        "frequency": "116.80 MHz",
+        "channel": "CH 115X",
+        "coordinates": "440836.6N 0204440.0E",
+        "elevation_ft": 1500
+      },
+      {
+        "identifier": "VAL",
+        "type": "VOR/DME",
+        "frequency": "116.60 MHz",
+        "channel": "CH 113X",
+        "coordinates": "441926.0N 0195228.9E",
+        "elevation_ft": 1100
+      }
+    ],
+    "NDB": [
+      {
+        "identifier": "IA",
+        "frequency": "485 kHz",
+        "coordinates": "450235.1N 0200423.2E",
+        "range_nm": 50
+      },
+      {
+        "identifier": "PA",
+        "frequency": "495 kHz",
+        "coordinates": "445330.2N 0203828.0E",
+        "range_nm": 50
+      },
+      {
+        "identifier": "POZ",
+        "frequency": "416 kHz",
+        "coordinates": "443714.7N 0210851.8E",
+        "range_nm": 50
+      },
+      {
+        "identifier": "PV",
+        "frequency": "300 kHz",
+        "coordinates": "451558.7N 0194758.2E",
+        "range_nm": 50
+      },
+      {
+        "identifier": "VAL",
+        "frequency": "390 kHz",
+        "coordinates": "441916.3N 0195230.2E",
+        "range_nm": 50
+      }
+    ],
+    "Locator": [
+      {
+        "identifier": "BT",
+        "frequency": "420 kHz",
+        "coordinates": "445806.0N 0201146.9E",
+        "range_nm": 25
+      },
+      {
+        "identifier": "EK",
+        "frequency": "420 kHz",
+        "coordinates": "445411.8N 0201900.8E",
+        "range_nm": 25
+      },
+      {
+        "identifier": "JA",
+        "frequency": "316 kHz",
+        "coordinates": "444434.5N 0202831.1E"
+      },
+      {
+        "identifier": "PZ",
+        "frequency": "320 kHz",
+        "coordinates": "445711.2N 0201336.1E",
+        "range_nm": 25
+      }
+    ]
+  },
+  "ats_airspace": {
+    "designation": "BATAJNICA CTR",
+    "vertical_limits": {
+      "lower": "GND",
+      "upper": "3300 FT AMSL"
+    },
+    "classification": "Class D",
+    "transition_altitude": 10000,
+    "coordinates": [
+      "450750N 0200400E",
+      "450810N 0201636E",
+      "450312N 0202528E",
+      "445218N 0203852E",
+      "444515N 0203633E",
+      "444648N 0203417E",
+      "445600N 0200941E",
+      "450136N 0200131E",
+      "450750N 0200400E"
+    ]
+  },
+  "communications": {
+    "approach": {
+      "call_sign": "BATAJNICA PRILAZNA / BATAJNICA APPROACH",
+      "frequencies": ["126.050 MHz", "119.575 MHz (alternate)", "121.500 MHz (emergency)"],
+      "vdf_available": true,
+      "class_of_bearing": ["B (QDR 260–060)", "C (QDR 060–210)", "D (QDR 210–260)"]
+    },
+    "tower": {
+      "call_sign": "BATAJNICA TORANJ / BATAJNICA TOWER",
+      "frequency": "118.200 MHz",
+      "vdf_available": true
+    }
+  },
+  "lighting_systems": {
+    "aerodrome_beacon": {
+      "location": "tower building",
+      "characteristics": "FLG W EV 3 SEC",
+      "hours": "O/R"
+    },
+    "wind_direction_indicators": [
+      {
+        "location": "150m from THR on right side of RWY 12L",
+        "used_as": "LDI"
+      },
+      {
+        "location": "150m from THR on left side of RWY 30L",
+        "used_as": "LDI"
+      },
+      {
+        "location": "150m SW from TLOF H",
+        "used_as": "LDI"
+      }
+    ],
+    "portable_lighting": "Portable airfield lighting system available",
+    "secondary_power": {
+      "available": true,
+      "switch_over_time": "non-stop"
+    }
+  },
+  "fuel_services": {
+    "fuel_types": ["JET A-1", "AVGAS 100 LL"],
+    "trucks": {
+      "jet_a1": [
+        {"count": 3, "capacity_liters": 32000, "delivery_rate_lpm": 2400},
+        {"count": 2, "capacity_liters": 23500, "delivery_rate_lpm": 1000},
+        {"count": 3, "capacity_liters": 21500, "delivery_rate_lpm": 800}
+      ],
+      "avgas_100ll": [
+        {"count": 1, "capacity_liters": 6500, "delivery_rate_lpm": 100}
+      ]
+    },
+    "remarks": "Only with special approval of the Ministry of Defence of the Republic of Serbia"
+  },
+  "metadata": {
+    "airac_cycle": "9/24",
+    "data_source": "AIP Srbija AD 2 LYBT",
+    "last_updated": "2025-12-13",
+    "note": "Use of AD only with permission issued by Ministry of Defence of the Republic of Serbia"
+  }
+}

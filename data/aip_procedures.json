@@ -1,0 +1,353 @@
+{
+  "airport": {
+    "icao": "LYBT",
+    "name": "BEOGRAD/Batajnica",
+    "elevation_ft": 281,
+    "transition_alt": 10000,
+    "magnetic_variation": "5°E",
+    "msa_25nm_ft": 3300,
+    "frequencies": {
+      "app": "126.050",
+      "twr": "118.200",
+      "ils_btj": "108.90",
+      "vor_bgd": "112.05"
+    }
+  },
+  "runways": [
+    {
+      "identifier": "12R",
+      "threshold_elevation_ft": 267,
+      "procedures": {
+        "rnp": {
+          "identifier": "RNP RWY 12R",
+          "sbas_channel": "71668",
+          "reference_path": "E12B",
+          "glidepath_angle": 3.0,
+          "tch_ft": 49,
+          "minimums": {
+            "lnav": {"oca_h_ft": 650, "height_ft": 383},
+            "lnav_vnav": {"oca_h_ft": 563, "height_ft": 296},
+            "lpv": {"oca_h_ft": 467, "height_ft": 200}
+          },
+          "approach_segments": [
+            {
+              "fix": "BT103",
+              "coordinate": "450636.6N 0195445.7E",
+              "type": "IF",
+              "altitude_ft": 5000
+            },
+            {
+              "fix": "BT102",
+              "coordinate": "450347.5N 0195952.4E",
+              "type": "TF",
+              "course_mag": "123°",
+              "course_true": "127.9°",
+              "distance_nm": 4.6,
+              "altitude_ft": 4000
+            },
+            {
+              "fix": "BT1RF",
+              "coordinate": "450054.6N 0200538.6E",
+              "type": "TF",
+              "course_mag": "120°",
+              "course_true": "125.1°",
+              "distance_nm": 5.0,
+              "altitude_ft": 3000
+            },
+            {
+              "fix": "RW12R",
+              "coordinate": "445609.46N 0201507.11E",
+              "type": "TF",
+              "flyover": true,
+              "course_mag": "120°",
+              "course_true": "125.2°",
+              "distance_nm": 8.2,
+              "vpa": "-3.0449"
+            },
+            {
+              "fix": "BT130",
+              "coordinate": "445439.5N 0201806.5E",
+              "type": "TF",
+              "flyover": true,
+              "course_mag": "120°",
+              "course_true": "125.2°",
+              "distance_nm": 2.6,
+              "speed_limit_kt": 230
+            }
+          ],
+          "missed_approach": {
+            "description": "Climb straight ahead inbound BT130. At BT130 turn LEFT (230 KT 185 MAX) direct to PA at 3000 and hold.",
+            "holding": {
+              "fix": "PA",
+              "coordinate": "445330.2N 0203828.0E",
+              "inbound_track_mag": "248°",
+              "inbound_track_true": "253.0°",
+              "turn_direction": "Left",
+              "altitude_ft": 3000,
+              "time": "1 MIN"
+            }
+          },
+          "descent_profile": {
+            "descent_angle": 3.0,
+            "descent_rate": "5.2%",
+            "descent_table": [
+              {"distance_nm": 1.0, "altitude_ft": 2920, "height_ft": 2653},
+              {"distance_nm": 2.0, "altitude_ft": 2590, "height_ft": 2323},
+              {"distance_nm": 3.0, "altitude_ft": 2260, "height_ft": 1993}
+            ]
+          }
+        }
+      },
+      "restrictions": {
+        "circling": "SW of aerodrome NA",
+        "baro_vnav": "NOT AUTHORIZED BELOW -15°C"
+      }
+    },
+    {
+      "identifier": "30L",
+      "threshold_elevation_ft": 280,
+      "procedures": {
+        "rnp": {
+          "identifier": "RNP RWY 30L",
+          "glidepath_angle": 3.0,
+          "tch_ft": 49,
+          "minimums": {
+            "lnav": {"oca_h_ft": 650, "height_ft": 369}
+          },
+          "approach_segments": [
+            {
+              "fix": "PA",
+              "coordinate": "445330.2N 0203828.0E",
+              "type": "IF",
+              "altitude_ft": 5000
+            },
+            {
+              "fix": "BT301",
+              "coordinate": "445202.2N 0202917.3E",
+              "type": "TF",
+              "course_mag": "252°",
+              "course_true": "257.4°",
+              "distance_nm": 6.7,
+              "altitude_ft": 2500,
+              "speed_limit_kt": 220
+            },
+            {
+              "fix": "BT3LF",
+              "coordinate": "445232.6N 0202217.4E",
+              "type": "TF",
+              "course_mag": "271°",
+              "course_true": "275.9°",
+              "distance_nm": 5.0,
+              "altitude_ft": 1900
+            },
+            {
+              "fix": "RW30L",
+              "coordinate": "445523.80N 0201637.84E",
+              "type": "TF",
+              "flyover": true,
+              "course_mag": "300°",
+              "course_true": "305.4°",
+              "distance_nm": 4.9,
+              "vpa": "-3.0449"
+            },
+            {
+              "fix": "BT310",
+              "coordinate": "445715.3N 0201256.7E",
+              "type": "TF",
+              "flyover": true,
+              "course_mag": "300°",
+              "course_true": "305.4°",
+              "distance_nm": 3.2,
+              "speed_limit_kt": 230
+            },
+            {
+              "fix": "RELKI",
+              "coordinate": "450817.5N 0200504.5E",
+              "type": "TF",
+              "course_mag": "328°",
+              "course_true": "333.2°",
+              "distance_nm": 12.4,
+              "turn_direction": "R",
+              "altitude_ft": 2500,
+              "speed_limit_kt": 230
+            }
+          ],
+          "missed_approach": {
+            "description": "Climb straight ahead inbound BT310. At BT310 turn RIGHT (230 KT IAS MAX) on track 328°(333.2°T) to RELKI at 2500 and hold.",
+            "holding_points": [
+              {
+                "fix": "PA",
+                "inbound_track_mag": "248°",
+                "inbound_track_true": "253.0°",
+                "turn_direction": "Left",
+                "altitude_ft": 5000,
+                "time": "1 MIN"
+              },
+              {
+                "fix": "RELKI",
+                "inbound_track_mag": "328°",
+                "inbound_track_true": "333.2°",
+                "turn_direction": "Right",
+                "altitude_ft": 2500,
+                "time": "1 MIN"
+              }
+            ]
+          }
+        }
+      },
+      "restrictions": {
+        "circling": "SW of aerodrome NA",
+        "turn_limits": {
+          "bt301": "220 KT IAS MAX",
+          "bt310": "230 KT IAS MAX"
+        }
+      }
+    },
+    {
+      "identifier": "12L",
+      "threshold_elevation_ft": 265,
+      "procedures": {
+        "ils": {
+          "identifier": "ILS or LOC RWY 12L",
+          "frequency": "108.90",
+          "channel": "26X",
+          "glidepath_angle": 3.05,
+          "tch_ft": 52,
+          "dme_required": true,
+          "adf_required": true,
+          "minimums": {
+            "cat_i": {"oca_h_ft": 530, "height_ft": 265},
+            "loc_only": {"oca_h_ft": 740, "height_ft": 459}
+          },
+          "approach_fixes": {
+            "faf": {
+              "name": "FAF (5.4NM BTJ)",
+              "coordinate": "445951.6N 0200816.5E",
+              "radial_distance": "300.34° BTJ LOC / 5.37 NM BTJ DME",
+              "altitude_ft": 2000
+            },
+            "sdf": {
+              "name": "SDF (4.2NM BTJ)",
+              "coordinate": "445911.1N 0200937.4E",
+              "radial_distance": "300.34° BTJ LOC / 4.20 NM BTJ DME"
+            }
+          },
+          "navaids": {
+            "btj_loc": {
+              "type": "LOC",
+              "frequency": "108.90",
+              "identifier": "BTJ"
+            },
+            "pa_ndb": {
+              "type": "NDB",
+              "frequency": "495",
+              "identifier": "PA"
+            },
+            "ia_ndb": {
+              "type": "NDB",
+              "frequency": "485",
+              "identifier": "IA"
+            }
+          }
+        },
+        "rnp": {
+          "identifier": "RNP RWY 12L",
+          "sbas_channel": "44075",
+          "reference_path": "E12A",
+          "glidepath_angle": 3.0,
+          "tch_ft": 52,
+          "minimums": {
+            "lnav": {"oca_h_ft": 620, "height_ft": 355},
+            "lnav_vnav": {"oca_h_ft": 515, "height_ft": 250},
+            "lpv": {"oca_h_ft": 465, "height_ft": 200}
+          },
+          "approach_segments": [
+            {
+              "fix": "BT103",
+              "coordinate": "450636.6N 0195445.7E",
+              "type": "IF",
+              "altitude_ft": 5000,
+              "speed_limit_kt": 250
+            },
+            {
+              "fix": "BT101",
+              "coordinate": "450318.4N 0200123.3E",
+              "type": "TF",
+              "course_mag": "120°",
+              "course_true": "125.1°",
+              "distance_nm": 5.7,
+              "altitude_ft": 4000
+            },
+            {
+              "fix": "BT1LF",
+              "coordinate": "445951.6N 0200816.6E",
+              "type": "TF",
+              "course_mag": "120°",
+              "course_true": "125.2°",
+              "distance_nm": 6.0,
+              "altitude_ft": 2000
+            },
+            {
+              "fix": "RW12L",
+              "coordinate": "445651.03N 0201416.06E",
+              "type": "TF",
+              "flyover": true,
+              "course_mag": "120°",
+              "course_true": "125.3°",
+              "distance_nm": 5.2,
+              "vpa": "-3.0/52"
+            },
+            {
+              "fix": "BT120",
+              "coordinate": "445506.9N 0201742.7E",
+              "type": "TF",
+              "flyover": true,
+              "course_mag": "120°",
+              "course_true": "125.3°",
+              "distance_nm": 3.0,
+              "speed_limit_kt": 230
+            }
+          ]
+        }
+      },
+      "restrictions": {
+        "circling": "SW of aerodrome NA",
+        "baro_vnav": "NOT AUTHORIZED BELOW -15°C"
+      }
+    }
+  ],
+  "critical_points": {
+    "PA": {
+      "coordinate": "445330.2N 0203828.0E",
+      "type": "NDB/Holding",
+      "used_in": ["12R", "12L", "30L", "30R"]
+    },
+    "RELKI": {
+      "coordinate": "450817.5N 0200504.5E",
+      "type": "Holding",
+      "used_in": ["30L", "30R"]
+    }
+  },
+  "simulation_parameters": {
+    "descent_rates": {
+      "3_degree_glidepath": {
+        "70_kt": 369,
+        "90_kt": 474,
+        "100_kt": 527,
+        "120_kt": 632,
+        "140_kt": 737,
+        "160_kt": 843,
+        "180_kt": 948
+      }
+    },
+    "standard_times": {
+      "holding_pattern": "1 MIN",
+      "approach_segment_time_multiplier": 1.5
+    },
+    "speed_limits": {
+      "standard_approach": 230,
+      "reduced_approach": 220,
+      "high_performance": 250
+    }
+  }
+}

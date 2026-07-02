@@ -1,0 +1,14 @@
+web/
+|	.gitignore
+|	index.html
+|	package.json
+|	package-lock.json
+|---node_modules/
+    |--- ...bunch of folders and files
+|---public/
+    |---vite.svg
+|---src/
+    |---counter.js
+    |---javascript.svg
+    |---main.js
+    |---style.css

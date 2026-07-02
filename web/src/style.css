@@ -1,0 +1,64 @@
+:root {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #0b0f14;
+}
+
+/* Three canvas će biti append-ovan u body; ovo osigurava da nema layout iznenađenja */
+body {
+  position: relative;
+}
+
+/* HUD */
+#hud {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  color: #e8eef6;
+  background: rgba(0,0,0,0.35);
+  padding: 10px 12px;
+  border-radius: 12px;
+  min-width: 260px;
+  z-index: 10;
+  backdrop-filter: blur(6px);
+}
+
+#hud .mt-8 { margin-top: 8px; }
+#hud .speed-buttons { opacity: .8; margin-right: 6px; }
+
+#time { font-variant-numeric: tabular-nums; }
+#slider { width: 240px; }
+
+#hud button {
+  margin-right: 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.15);
+  padding: 0.45em 0.9em;
+  font-size: 0.95em;
+  font-weight: 600;
+  font-family: inherit;
+  background: rgba(20, 25, 35, 0.9);
+  color: #e8eef6;
+  cursor: pointer;
+}
+
+#hud button:hover {
+  border-color: rgba(255,255,255,0.35);
+}
+
+#hud button:focus,
+#hud button:focus-visible {
+  outline: 2px solid rgba(100,108,255,0.9);
+  outline-offset: 2px;
+}

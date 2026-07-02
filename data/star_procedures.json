@@ -1,0 +1,151 @@
+{
+  "airport": "LYBT",
+  "procedures": {
+    "rw_12L_12R": {
+      "name": "STAR za pistu 12L/12R",
+      "arrival_routes": [
+        {
+          "identifier": "TISAK 1P",
+          "description": "TISAK ONE PAPA",
+          "entry_point": "TISAK",
+          "entry_coord": "452519.4N 0201338.3E",
+          "entry_altitude_ft": 7000,
+          "waypoints": [
+            {
+              "fix": "BT109",
+              "coord": "451110.4N 0195917.8E",
+              "course_mag": "211°",
+              "course_true": "215.7°",
+              "distance_nm": 17.4,
+              "altitude_ft": 5000,
+              "speed_limit_kt": 250
+            },
+            {
+              "fix": "BT103",
+              "coord": "450636.6N 0195445.7E",
+              "course_mag": "210°",
+              "course_true": "215.1°",
+              "distance_nm": 5.6,
+              "altitude_ft": 5000,
+              "speed_limit_kt": 250
+            }
+          ],
+          "rnp_specification": "RNP 1"
+        },
+        {
+          "identifier": "DONIV 1P",
+          "description": "DONIV ONE PAPA",
+          "entry_point": "DONIV",
+          "entry_coord": "444455.9N 0211010.4E",
+          "entry_altitude_ft": 7000,
+          "waypoints": [
+            {
+              "fix": "PA",
+              "coord": "445330.2N 0203828.0E",
+              "course_mag": "286°",
+              "course_true": "291.0°",
+              "distance_nm": 24.1,
+              "altitude_ft": 5000,
+              "speed_limit_kt": 250
+            },
+            {
+              "fix": "RELKI",
+              "coord": "450817.5N 0200504.5E",
+              "course_mag": "297°",
+              "course_true": "302.2°",
+              "distance_nm": 27.9,
+              "altitude_ft": 5000,
+              "speed_limit_kt": 250
+            },
+            {
+              "fix": "BT109",
+              "coord": "451110.4N 0195917.8E",
+              "course_mag": "300°",
+              "course_true": "305.2°",
+              "distance_nm": 5.0,
+              "altitude_ft": 5000,
+              "speed_limit_kt": 250
+            },
+            {
+              "fix": "BT103",
+              "coord": "450636.6N 0195445.7E",
+              "course_mag": "210°",
+              "course_true": "215.1°",
+              "distance_nm": 5.6,
+              "altitude_ft": 5000,
+              "speed_limit_kt": 250
+            }
+          ]
+        }
+      ]
+    },
+    "rw_30L_30R": {
+      "name": "STAR za pistu 30L/30R",
+      "arrival_routes": [
+        {
+          "identifier": "TISAK 1Q",
+          "description": "TISAK ONE QUEBEC",
+          "entry_point": "TISAK",
+          "entry_coord": "452519.4N 0201338.3E",
+          "entry_altitude_ft": 7000,
+          "waypoints": [
+            {
+              "fix": "BT306",
+              "coord": "450655.9N 0203005.7E",
+              "course_mag": "143°",
+              "course_true": "147.6°",
+              "distance_nm": 21.8,
+              "altitude_ft": 5000,
+              "speed_limit_kt": 250
+            },
+            {
+              "fix": "BT303",
+              "coord": "445827.9N 0203736.0E",
+              "course_mag": "143°",
+              "course_true": "147.8°",
+              "distance_nm": 10.0,
+              "altitude_ft": 5000,
+              "speed_limit_kt": 250
+            },
+            {
+              "fix": "PA",
+              "coord": "445330.2N 0203828.0E",
+              "course_mag": "168°",
+              "course_true": "172.9°",
+              "distance_nm": 5.0,
+              "altitude_ft": 5000,
+              "speed_limit_kt": 250
+            }
+          ],
+          "rnp_specification": "RNP 1"
+        }
+      ]
+    }
+  },
+  "holding_patterns": {
+    "PA": {
+      "coordinate": "445330.2N 0203828.0E",
+      "inbound_track_mag": "253°",
+      "inbound_track_true": "248°",
+      "turn_direction": "Left",
+      "standard_altitude_ft": 3000,
+      "max_aircraft": 3,
+      "holding_time": "1 MIN"
+    },
+    "RELKI": {
+      "coordinate": "450817.5N 0200504.5E",
+      "inbound_track_mag": "333°",
+      "inbound_track_true": "328°",
+      "turn_direction": "Right",
+      "standard_altitude_ft": 2500,
+      "max_aircraft": 2,
+      "holding_time": "1 MIN"
+    }
+  },
+  "metadata": {
+    "generated_date": "2025-12-13T00:40:25.589840",
+    "source": "AIP Srbija AD 2 LYBT 2.24.10",
+    "airac_amdt": "9/24",
+    "note": "BGD procedures not to be used for flight planning purposes. On ATC discretion only."
+  }
+}
