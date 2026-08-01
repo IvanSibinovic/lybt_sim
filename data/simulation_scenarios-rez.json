@@ -1,0 +1,127 @@
+{
+  "scenarios": [
+    {
+      "id": "SCENARIO_1",
+      "name": "Osnovni scenario - losi vremenski uslovi",
+      "description": "Svi avioni koriste instrumentalni prilaz zbog lose vidljivosti",
+      "parameters": {
+        "weather_conditions": "IFR",
+        "visibility_m": 800,
+        "cloud_base_ft": 300,
+        "wind": {
+          "direction": "300",
+          "speed_kt": 15
+        },
+        "temperature_c": 5,
+        "qnh_hpa": 1013,
+        "weather_transition": null
+      },
+      "aircraft_composition": {
+        "Airbus H145 D3": 3,
+        "Mi-17": 3,
+        "MiG-29": 5,
+        "Airbus CASA C-295M": 2,
+        "Antonov An-26": 1,
+        "Lasta 95": 2
+      },
+      "runway_configuration": "12R/30L aktivne",
+      "holding_capacity": {
+        "PA": 3,
+        "RELKI": 2
+      },
+      "separation_minima": {
+        "L-L": 60,
+        "L-M": 90,
+        "M-M": 90,
+        "M-H": 120,
+        "H-H": 120
+      }
+    },
+    {
+      "id": "SCENARIO_2",
+      "name": "VFR uslovi - vizuelni prilaz",
+      "description": "Dobar vremenski scenario za poredjenje",
+      "parameters": {
+        "weather_conditions": "VFR",
+        "visibility_m": 10000,
+        "cloud_base_ft": 5000,
+        "wind": {
+          "direction": "VRB",
+          "speed_kt": 5
+        },
+        "temperature_c": 20,
+        "qnh_hpa": 1013,
+        "weather_transition": {"at_min": 30, "to": "IFR"}
+      },
+      "aircraft_composition": {
+        "Airbus H145 D3": 3,
+        "Mi-17": 3,
+        "MiG-29": 5,
+        "Airbus CASA C-295M": 2,
+        "Antonov An-26": 1,
+        "Lasta 95": 2
+      },
+      "runway_configuration": "Obe piste aktivne",
+      "holding_capacity": {
+        "PA": 3,
+        "RELKI": 2
+      },
+      "separation_minima": {
+        "L-L": 45,
+        "L-M": 60,
+        "M-M": 60,
+        "M-H": 90,
+        "H-H": 90
+      }
+    },
+    {
+      "id": "SCENARIO_3",
+      "name": "Hitni vojni scenario",
+      "description": "Povecan broj borbenih aviona sa hitnim pristupom",
+      "parameters": {
+        "weather_conditions": "IFR",
+        "visibility_m": 1500,
+        "cloud_base_ft": 600,
+        "wind": {
+          "direction": "120",
+          "speed_kt": 20
+        },
+        "temperature_c": -5,
+        "qnh_hpa": 1020,
+        "weather_transition": {"at_min": 45, "to": "IFR"}
+      },
+      "aircraft_composition": {
+        "Airbus H145 D3": 2,
+        "Mi-17": 2,
+        "MiG-29": 8,
+        "Airbus CASA C-295M": 1,
+        "Antonov An-26": 1,
+        "Lasta 95": 2
+      },
+      "runway_configuration": "12R/12L aktivne",
+      "holding_capacity": {
+        "PA": 3,
+        "RELKI": 2
+      },
+      "separation_minima": {
+        "L-L": 45,
+        "L-M": 60,
+        "M-M": 60,
+        "M-H": 90,
+        "H-H": 90
+      },
+      "priority_rules": {
+        "military_priority": true,
+        "fuel_emergency_priority": true,
+        "max_wait_time_min": 30
+      }
+    }
+  ],
+  "simulation_parameters": {
+    "time_step_seconds": 1,
+    "max_simulation_time_minutes": 240,
+    "random_seed": 42,
+    "number_of_runs": 10,
+    "confidence_level": 0.95
+  }
+}

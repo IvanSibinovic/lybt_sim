@@ -349,5 +349,77 @@
       "reduced_approach": 220,
       "high_performance": 250
     }
+  },
+  "approach_sequencing": {
+    "common_entry_point": "LANEN",
+    "common_path_distance_nm": 14.7,
+    "basic_separation_distance_nm": 3.0,
+    "runway_buffer_sec": 0.0,
+
+    "harris_delivery_error_std_sec": 20.0,
+    "harris_violation_probability": 0.05,
+
+    "wake_separation_time_sec": {
+      "SUPER": {
+        "SUPER": 0,
+        "HEAVY": 180,
+        "MEDIUM": 180,
+        "LIGHT": 180
+      },
+      "HEAVY": {
+        "SUPER": 0,
+        "HEAVY": 0,
+        "MEDIUM": 0,
+        "LIGHT": 180
+      },
+      "MEDIUM": {
+        "SUPER": 0,
+        "HEAVY": 0,
+        "MEDIUM": 0,
+        "LIGHT": 180
+      },
+      "LIGHT": {
+        "SUPER": 0,
+        "HEAVY": 0,
+        "MEDIUM": 0,
+        "LIGHT": 0
+      },
+      "Notes": "ICAO time-based wake separation minima according to Amendment 52 to Annex 11 Air Traffic Services, and Amendments 9 and 10 to ICAO Doc 4444 Procedures for Air Navigation Services – Air Traffic Management (PANS-ATM)"
+    },
+
+    "wake_separation_distance_nm": {
+      "SUPER": {
+        "SUPER": 0.0,
+        "HEAVY": 5.0,
+        "MEDIUM": 7.0,
+        "LIGHT": 8.0
+      },
+      "HEAVY": {
+        "SUPER": 0.0,
+        "HEAVY": 4.0,
+        "MEDIUM": 5.0,
+        "LIGHT": 6.0
+      },
+      "MEDIUM": {
+        "SUPER": 0.0,
+        "HEAVY": 0.0,
+        "MEDIUM": 0.0,
+        "LIGHT": 5.0
+      },
+      "LIGHT": {
+        "SUPER": 0.0,
+        "HEAVY": 0.0,
+        "MEDIUM": 0.0,
+        "LIGHT": 0.0
+      },
+      "Notes": "ICAO Legacy distance-based wake separation minima for ATS surveillance service"
+    },
+
+    "validation_points_distance_to_threshold_nm": {
+      "FAF": 5.4,
+      "OM": 2.3,
+      "MM": 0.7,
+      "THRESHOLD": 0.0
+    }
   }
 }

@@ -1,0 +1,387 @@
+{
+  "metadata": {
+    "airport": "LYBT",
+    "time_unit": "minutes",
+    "takeoff_time_reference": "simulation_start",
+    "duration_definition": "time_spent_in_designated_activity"
+  },
+
+  "aircraft_types": {
+    "MiG-29": [
+      {
+        "aircraft_id": 1,
+        "sorties": [
+          {
+            "sortie_id": 1,
+            "refuelled": true,
+            "takeoff_time_min": 5,
+            "activity_duration_min": 25,
+            "designation": "AERIAL_WORK",
+            "migration_time_min": 7,
+            "sortie_return_time_min": 3
+          },
+          {
+            "sortie_id": 2,
+            "refuelled": true,
+            "takeoff_time_min": 90,
+            "activity_duration_min": 25,
+            "designation": "AERIAL_WORK",
+            "migration_time_min": 7,
+            "sortie_return_time_min": 3
+          }
+        ]
+      },
+
+      {
+        "aircraft_id": 2,
+        "sorties": [
+          {
+            "sortie_id": 1,
+            "refuelled": true,
+            "takeoff_time_min": 5,
+            "activity_duration_min": 25,
+            "designation": "AERIAL_WORK",
+            "migration_time_min": 7,
+            "sortie_return_time_min": 3
+          },
+          {
+            "sortie_id": 2,
+            "refuelled": true,
+            "takeoff_time_min": 90,
+            "activity_duration_min": 25,
+            "designation": "AERIAL_WORK",
+            "migration_time_min": 7,
+            "sortie_return_time_min": 3
+          }
+        ]
+      },
+
+      {
+        "aircraft_id": 3,
+        "sorties": [
+          {
+            "sortie_id": 1,
+            "refuelled": true,
+            "takeoff_time_min": 15,
+            "activity_duration_min": 45,
+            "designation": "EN_ROUTE",
+            "migration_time_min": 7,
+            "sortie_return_time_min": 5
+          }
+        ]
+      },
+
+      {
+        "aircraft_id": 4,
+        "sorties": [
+          {
+            "sortie_id": 1,
+            "refuelled": true,
+            "takeoff_time_min": 15,
+            "activity_duration_min": 30,
+            "designation": "AERODROME_CIRCUIT",
+            "migration_time_min": 0,
+            "sortie_return_time_min": 0
+          },
+          {
+            "sortie_id": 2,
+            "refuelled": true,
+            "takeoff_time_min": 90,
+            "activity_duration_min": 25,
+            "designation": "AERIAL_WORK",
+            "migration_time_min": 7,
+            "sortie_return_time_min": 3
+          }
+        ]
+      }
+    ],
+
+    "G-4": [
+      {
+        "aircraft_id": 1,
+        "sorties": [
+          {
+            "sortie_id": 1,
+            "refuelled": true,
+            "takeoff_time_min": 0,
+            "activity_duration_min": 25,
+            "designation": "AERIAL_WORK",
+            "migration_time_min": 6,
+            "sortie_return_time_min": 8
+          },
+          {
+            "sortie_id": 2,
+            "refuelled": true,
+            "takeoff_time_min": 85,
+            "activity_duration_min": 25,
+            "designation": "AERIAL_WORK",
+            "migration_time_min": 6,
+            "sortie_return_time_min": 8
+          }
+        ]
+      },
+      {
+        "aircraft_id": 2,
+        "sorties": [
+          {
+            "sortie_id": 1,
+            "refuelled": true,
+            "takeoff_time_min": 5,
+            "activity_duration_min": 45,
+            "designation": "EN_ROUTE",
+            "migration_time_min": 6,
+            "sortie_return_time_min": 6
+          },
+          {
+            "sortie_id": 2,
+            "refuelled": true,
+            "takeoff_time_min": 105,
+            "activity_duration_min": 30,
+            "designation": "AERODROME_CIRCUIT",
+            "migration_time_min": 0,
+            "sortie_return_time_min": 0
+          }
+        ]
+      }
+    ],
+    
+    "H145": [
+      {
+        "aircraft_id": 1,
+        "sorties": [
+          {
+            "sortie_id": 1,
+            "refuelled": true,
+            "takeoff_time_min": 0,
+            "activity_duration_min": 40,
+            "designation": "EN_ROUTE",
+            "migration_time_min": 10,
+            "sortie_return_time_min": 8
+          },
+          {
+            "sortie_id": 2,
+            "refuelled": false,
+            "takeoff_time_min": 65,
+            "activity_duration_min": 40,
+            "designation": "EN_ROUTE",
+            "migration_time_min": 10,
+            "sortie_return_time_min": 8
+          }
+        ]
+      },
+      {
+        "aircraft_id": 2,
+        "sorties": [
+          {
+            "sortie_id": 1,
+            "refuelled": true,
+            "takeoff_time_min": 5,
+            "activity_duration_min": 20,
+            "designation": "AERIAL_WORK",
+            "migration_time_min": 10,
+            "sortie_return_time_min": 8
+          },
+          {
+            "sortie_id": 2,
+            "refuelled": false,
+            "takeoff_time_min": 50,
+            "activity_duration_min": 20,
+            "designation": "AERIAL_WORK",
+            "migration_time_min": 10,
+            "sortie_return_time_min": 8
+          },
+          {
+            "sortie_id": 3,
+            "refuelled": false,
+            "takeoff_time_min": 95,
+            "activity_duration_min": 20,
+            "designation": "AERIAL_WORK",
+            "migration_time_min": 10,
+            "sortie_return_time_min": 8
+          }
+        ]
+      },
+      {
+        "aircraft_id": 3,
+        "sorties": [
+          {
+            "sortie_id": 1,
+            "refuelled": true,
+            "takeoff_time_min": 5,
+            "activity_duration_min": 12,
+            "designation": "AERIAL_WORK",
+            "migration_time_min": 14,
+            "sortie_return_time_min": 10
+          },
+          {
+            "sortie_id": 2,
+            "refuelled": false,
+            "takeoff_time_min": 50,
+            "activity_duration_min": 16,
+            "designation": "AERIAL_WORK",
+            "migration_time_min": 12,
+            "sortie_return_time_min": 10
+          },
+          {
+            "sortie_id": 3,
+            "refuelled": false,
+            "takeoff_time_min": 95,
+            "activity_duration_min": 20,
+            "designation": "AERIAL_WORK",
+            "migration_time_min": 10,
+            "sortie_return_time_min": 8
+          }
+        ]
+      }
+
+    ],
+
+    "Mi-17": [
+      {
+        "aircraft_id": 1,
+        "sorties": [
+          {
+            "sortie_id": 1,
+            "refuelled": true,
+            "takeoff_time_min": 0,
+            "activity_duration_min": 15,
+            "designation": "AERIAL_WORK",
+            "migration_time_min": 10,
+            "sortie_return_time_min": 7
+          },
+          {
+            "sortie_id": 2,
+            "refuelled": false,
+            "takeoff_time_min": 50,
+            "activity_duration_min": 15,
+            "designation": "AERIAL_WORK",
+            "migration_time_min": 12,
+            "sortie_return_time_min": 8
+          }
+        ]
+      },
+      {
+        "aircraft_id": 2,
+        "sorties": [
+          {
+            "sortie_id": 1,
+            "refuelled": true,
+            "takeoff_time_min": 0,
+            "activity_duration_min": 40,
+            "designation": "EN_ROUTE",
+            "migration_time_min": 10,
+            "sortie_return_time_min": 8
+          }
+        ]
+      }
+    ],
+
+    "CASA": [
+      {
+        "aircraft_id": 1,
+        "sorties": [
+          {
+            "sortie_id": 1,
+            "refuelled": true,
+            "takeoff_time_min": 10,
+            "activity_duration_min": 65,
+            "designation": "EN_ROUTE",
+            "migration_time_min": 5,
+            "sortie_return_time_min": 3
+          }
+        ]
+      },
+      {
+        "aircraft_id": 2,
+        "sorties": [
+          {
+            "sortie_id": 1,
+            "refuelled": true,
+            "takeoff_time_min": 25,
+            "activity_duration_min": 65,
+            "designation": "EN_ROUTE",
+            "migration_time_min": 5,
+            "sortie_return_time_min": 2
+          }
+        ]
+      }
+
+    ],
+
+    "An-26": [
+      {
+        "aircraft_id": 1,
+        "sorties": [
+          {
+            "sortie_id": 1,
+            "refuelled": true,
+            "takeoff_time_min": 18,
+            "activity_duration_min": 60,
+            "designation": "EN_ROUTE",
+            "migration_time_min": 5,
+            "sortie_return_time_min": 3
+          }
+        ]
+      }
+    ],
+
+    "Lasta": [
+      {
+        "aircraft_id": 1,
+        "sorties": [
+          {
+            "sortie_id": 1,
+            "refuelled": true,
+            "takeoff_time_min": 5,
+            "activity_duration_min": 30,
+            "designation": "AERODROME_CIRCUIT",
+            "migration_time_min": 0,
+            "sortie_return_time_min": 0
+          },
+          {
+            "sortie_id": 2,
+            "refuelled": true,
+            "takeoff_time_min": 70,
+            "activity_duration_min": 30,
+            "designation": "AERODROME_CIRCUIT",
+            "migration_time_min": 0,
+            "sortie_return_time_min": 0
+          },
+          {
+            "sortie_id": 3,
+            "refuelled": false,
+            "takeoff_time_min": 110,
+            "activity_duration_min": 30,
+            "designation": "AERODROME_CIRCUIT",
+            "migration_time_min": 0,
+            "sortie_return_time_min": 0
+          }
+        ]
+      },
+      {
+
+        "aircraft_id": 2,
+        "sorties": [
+          {
+            "sortie_id": 1,
+            "refuelled": true,
+            "takeoff_time_min": 10,
+            "activity_duration_min": 45,
+            "designation": "EN_ROUTE",
+            "migration_time_min": 6,
+            "sortie_return_time_min": 6
+          },
+          {
+            "sortie_id": 2,
+            "refuelled": true,
+            "takeoff_time_min": 100,
+            "activity_duration_min": 20,
+            "designation": "AERIAL_WORK",
+            "migration_time_min": 10,
+            "sortie_return_time_min": 7
+          }
+        ]
+      }
+    ]
+  }
+}
