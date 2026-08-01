@@ -1,13 +1,19 @@
-lybt-sim/
+lybt_sim/
+  run_sim.py
   data/
     aip_procedures.json
     star_procedures.json
     aerodrome_layout.json
     aircraft_performance.json
     simulation_scenarios.json
-
-simulaciono-modeliranje/
-  run_sim.py
+  docs
+  results/
+    animations
+    graphs
+    reports
+  savec_figures
+  scripts/
+    generate_data_from_aip.py
   src/
     lybt_sim/
       __init__.py
@@ -19,14 +25,6 @@ simulaciono-modeliranje/
       export_replay.py
       analysis.py
 
-  scripts/
-    generate_data_from_aip.py
-
-  results/ (ima izveštaja od prethodnih proba simulacije)
-    animations
-    graphs
-    reports
-
   web/
     index.html
     src/
@@ -35,4 +33,3 @@ simulaciono-modeliranje/
       ui.js
     public/
       replay.json
-

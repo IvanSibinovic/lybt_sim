@@ -33,6 +33,7 @@ def load_all_data():
     star_data     = load_json(config.STAR_FILE)
     layout_data   = load_json(config.LAYOUT_FILE)
     scenarios     = load_json(config.SCENARIOS_FILE)
+    common_fpl   = load_json(config.COMMON_FPL_FILE)
 
     # runway end -> runway pair map (12L -> 12L/30R)
     rw_map = {}
@@ -43,4 +44,4 @@ def load_all_data():
             rw_map[a.strip()] = ident
             rw_map[b.strip()] = ident
 
-    return aircraft_data, aip_data, star_data, layout_data, scenarios, rw_map
+    return aircraft_data, aip_data, star_data, layout_data, scenarios, rw_map, common_fpl
